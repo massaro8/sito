@@ -205,7 +205,7 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(./img/hero-bg.png);
+  background-image: url(./img/universita.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -230,9 +230,10 @@ p {
 }
 
 #hero h2 {
+  margin-top: 20px;
   display: block;
   width: fit-content;
-  font-size: 4rem;
+  font-size: 3rem;
   position: relative;
   color: transparent;
   animation: text_reveal 0.5s ease forwards;
@@ -304,6 +305,46 @@ p {
   animation-delay: 1.5s;
 }
 #hero h1:nth-child(3) span {
+  animation-delay: 2.5s;
+}
+
+#hero h3 {
+  margin-top: 20px;
+  display: block;
+  width: fit-content;
+  font-size: 2rem;
+  position: relative;
+  color: transparent;
+  animation: text_reveal 0.5s ease forwards;
+  animation-delay: 1s;
+}
+#hero h3:nth-child(1) {
+  animation-delay: 1s;
+}
+#hero h3:nth-child(2) {
+  animation-delay: 2s;
+}
+#hero h3:nth-child(3) {
+  animation: text_reveal 0.5s ease forwards;
+  animation-delay: 3s;
+}
+#hero h3 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: crimson;
+  animation: text_reveal_box 1s ease;
+  animation-delay: 0.5s;
+}
+#hero h:nth-child(1) span {
+  animation-delay: 0.5s;
+}
+#hero h3:nth-child(2) span {
+  animation-delay: 1.5s;
+}
+#hero h3:nth-child(3) span {
   animation-delay: 2.5s;
 }
 
