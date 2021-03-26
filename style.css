@@ -29,7 +29,7 @@ p {
   font-weight: 300;
   letter-spacing: 0.05rem;
 }
-/* da eliminare */
+
 .section-title {
   font-size: 4rem;
   font-weight: 300;
@@ -39,11 +39,11 @@ p {
   letter-spacing: 0.2rem;
   text-align: center;
 }
-/* da eliminare */
+
 .section-title span {
   color: rgb(0, 89, 179);
 }
-/* da eliminare */
+
 .cta {
   display: inline-block;
   padding: 10px 30px;
@@ -58,7 +58,7 @@ p {
   transition-property: background-color, color;
   text-decoration: none;
 }
-/* da eliminare */
+
 .cta:hover {
   color: white;
   background-color: rgb(0, 89, 179);
